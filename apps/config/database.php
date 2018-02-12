@@ -73,52 +73,52 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
-// $db['default']['hostname'] = 'pgsql:host=localhost;dbname=db_hospital'; //set host
-// $db['default']['username'] = 'postgres'; //set username
-// $db['default']['password'] = 'asdf'; //set password
-// $db['default']['database'] = 'db_hospital'; //set databse
-// $db['default']['dbdriver'] = 'pdo'; //set driver here
-// $db['default']['port']  = 5432;
-
-// $active_group = 'default';
-// $active_record = TRUE;
-// $db['default']['hostname'] = 'localhost';
-// $db['default']['username'] = 'postgres';
-// $db['default']['password'] = 'asdf';
-// $db['default']['database'] = 'db_hospital';
-// $db['default']['dbdriver'] = 'postgre';
-// $db['default']['dbprefix'] = '';
-// $db['default']['pconnect'] = FALSE;
-// $db['default']['db_debug'] = TRUE;
-// $db['default']['cache_on'] = FALSE;
-// $db['default']['cachedir'] = '';
-// $db['default']['char_set'] = 'utf8';
-// $db['default']['dbcollat'] = 'utf8_general_ci';
-// $db['default']['swap_pre'] = '';
-// $db['default']['autoinit'] = TRUE;
-// $db['default']['stricton'] = FALSE;
+$db['default']['hostname'] = 'pgsql:host=ec2-23-21-229-48.compute-1.amazonaws.com;dbname=d4ep12nc75kvoa'; //set host
+$db['default']['username'] = 'ixzhsnvsmybehi'; //set username
+$db['default']['password'] = 'b87a586963d338bebeadc1a14b6b1667d6d4e244a4568c24b731663c1787409d'; //set password
+$db['default']['database'] = 'd4ep12nc75kvoa'; //set databse
+$db['default']['dbdriver'] = 'pdo'; //set driver here
+$db['default']['port']  = 5432;
 
 $active_group = 'default';
-$query_builder = TRUE;
+$active_record = TRUE;
+$db['default']['hostname'] = 'ec2-23-21-229-48.compute-1.amazonaws.com';
+$db['default']['username'] = 'ixzhsnvsmybehi';
+$db['default']['password'] = 'b87a586963d338bebeadc1a14b6b1667d6d4e244a4568c24b731663c1787409d';
+$db['default']['database'] = 'd4ep12nc75kvoa';
+$db['default']['dbdriver'] = 'postgre';
+$db['default']['dbprefix'] = '';
+$db['default']['pconnect'] = FALSE;
+$db['default']['db_debug'] = TRUE;
+$db['default']['cache_on'] = FALSE;
+$db['default']['cachedir'] = '';
+$db['default']['char_set'] = 'utf8';
+$db['default']['dbcollat'] = 'utf8_general_ci';
+$db['default']['swap_pre'] = '';
+$db['default']['autoinit'] = TRUE;
+$db['default']['stricton'] = FALSE;
 
-$db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'harrison91',
-	'database' => 'db_hotel',
-	'dbdriver' => 'mysqli',
-	'dbprefix' => '',
-	'pconnect' => FALSE,
-	'db_debug' => (ENVIRONMENT !== 'production'),
-	'cache_on' => FALSE,
-	'cachedir' => '',
-	'char_set' => 'utf8',
-	'dbcollat' => 'utf8_general_ci',
-	'swap_pre' => '',
-	'encrypt' => FALSE,
-	'compress' => FALSE,
-	'stricton' => FALSE,
-	'failover' => array(),
-	'save_queries' => TRUE
-);
+// $active_group = 'default';
+// $query_builder = TRUE;
+//
+// $db['default'] = array(
+// 	'dsn'	=> '',
+// 	'hostname' => 'localhost',
+// 	'username' => 'root',
+// 	'password' => 'harrison91',
+// 	'database' => 'db_hotel',
+// 	'dbdriver' => 'mysqli',
+// 	'dbprefix' => '',
+// 	'pconnect' => FALSE,
+// 	'db_debug' => (ENVIRONMENT !== 'production'),
+// 	'cache_on' => FALSE,
+// 	'cachedir' => '',
+// 	'char_set' => 'utf8',
+// 	'dbcollat' => 'utf8_general_ci',
+// 	'swap_pre' => '',
+// 	'encrypt' => FALSE,
+// 	'compress' => FALSE,
+// 	'stricton' => FALSE,
+// 	'failover' => array(),
+// 	'save_queries' => TRUE
+// );
